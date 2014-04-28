@@ -1,0 +1,19 @@
+@charset "<@charset "UTF-8";>";
+
+
+@font-face {
+	font-family:'gentium-r';
+	src: url(GenBasR.ttf);
+}
+@font-face {
+	font-family:'gentium-i';
+	src: url(GenBasI.ttf);
+}
+@font-face {
+	font-family:'gentium-b';
+	src: url(GenBasB.ttf);
+}
+@font-face {
+	font-family:'anonymous';
+	src: url(Anonymous_Pro.ttf);
+}
