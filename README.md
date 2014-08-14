@@ -13,6 +13,9 @@ Les typographies utilisé Gentium (http://scripts.sil.org/cms/scripts/page.php?s
 2014
 
 
+![Demo](https://raw.githubusercontent.com/Antoine-Gelgon/PaperFont/V1/Screen-interface/PaperFont.png)
+
+
 ##LES MOYENS
 
 PaperFont est une articulation entre plusieurs langages, librairies et outils.
@@ -79,8 +82,8 @@ Ce chat permet la communication entre les différents contributeurs du projet.
 
 ##STRUCTURE DE LA BASE DE DONNÉES
 
--- Structure de la table `archive`
---
+Structure de la table `archive`
+
 CREATE TABLE `archive` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `lettre` varchar(1) CHARACTER SET latin1 NOT NULL,
@@ -91,8 +94,9 @@ CREATE TABLE `archive` (
 `log` text CHARACTER SET latin1 NOT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin7 COLLATE=latin7_general_cs AUTO_INCREMENT=241 ;
--- Structure de la table `chat`
---
+
+Structure de la table `chat`
+
 CREATE TABLE `chat` (
 `id` int(100) NOT NULL AUTO_INCREMENT,
 `date` varchar(100) COLLATE latin7_general_cs NOT NULL,
@@ -100,8 +104,9 @@ CREATE TABLE `chat` (
 `texte` text CHARACTER SET latin1 NOT NULL,
 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin7 COLLATE=latin7_general_cs AUTO_INCREMENT=6 ;
--- Structure de la table `notes`
---
+
+Structure de la table `notes`
+
 CREATE TABLE `notes` (
 `id` int(11) NOT NULL AUTO_INCREMENT,
 `date` varchar(100) NOT NULL,
