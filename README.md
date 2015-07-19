@@ -2,8 +2,8 @@ PaperFont
 =========
 Licence GNU/GPL. Antoine Gelgon.
 
-PaperFont est une interface servant à développer des formes typographique à plusieurs.
-Ces formes sont éditées en javascript et utilisent la librairie (http://paperjs.org/) développé par Jürg Lehni & Jonathan Puckey. Cette interface a également pour but de rendre visible l'évolution du projet, par un système de versionning et de changelog. Un chat y est intégré pour faciliter la communication entre les contributeurs. 
+PaperFont est une interface servant à développer des formes typographiques à plusieurs.
+Ces formes sont éditées en javascript et utilisent la librairie (http://paperjs.org/) développée par Jürg Lehni & Jonathan Puckey. Cette interface a également pour but de rendre visible l'évolution du projet, par un système de versionning et de changelog. Un chat y est intégré pour faciliter la communication entre les contributeurs. 
 			
 PaperFont est développé par Antoine Gelgon.
 
